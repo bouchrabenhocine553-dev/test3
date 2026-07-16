@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form </title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form>
+        <div>
+<label>Nom :</label>
+<input type="text" placeholder="your name" required>
+</div>
+
+<div><br>
+<label>Mail :</label>
+<input type="email" placeholder="example@mail.com" required><br>
+</div>
+<div><br>
+<label>Password :</label>
+<input type="password" placeholder="xxxxxxxx" required><br>
+</div>
+<div><br>
+<label>Age :</label>
+<input type="number" placeholder="your age" required><br>
+</div>
+<div><br>
+<label>Date of birthday :</label>
+<input type="date" placeholder="" required><br>
+</div>
+<div><br>
+<label>Favorite color :</label>
+<input type="color"  placeholder="" required><br>
+</div>
+<div><br>
+<label>Preferred volume :</label>
+<input type="range"  placeholder="" required><br>
+</div>
+ <div><br>
+<label>Profile picture:</label>
+<input type="file"  placeholder="" required><br>
+</div>
+<br>
+<label>Gender :</label><br>
+
+<input type="radio"  name="Gender" value="Female">
+<label for="Female">Female</label><br>
+<input type="radio"  name="Gender" value="Male">
+<label for="Male">Male</label><br> 
+
+<br><label> Interests:</label><br>
+<input type="checkbox" name="Interests" value="Music">
+<label for="Interests">Music</label><br>
+<input type="checkbox" name="Interests" value="Sport">
+<label for="Interests">Sport</label><br>
+
+ <label>Education level:</label><br>
+ <select name="level">
+ <option value="">Select your level </option>
+<option value="High School">High School</option>
+<option value="Bachelor's dgree ">Bachelor's dgree</option>
+<option value="Master">Master</option>
+<option value="Phd">Phd</option>
+ </select>
+<br><label>Why do you want to regiter?</label><br>
+<textarea  name="message" placeholder="write your message here ...." required></textarea>
+
+    </form>
+    <h1>Image</h1>
+    <figure>
+        <img src="image/images.jpg" alt="profile picteur">
+        <figcaption>Example profile picteur</figcaption>
+    </figure>
+<h2>AUDiO></h2>
+<audio controls>
+    <source src="media/mirostar-lofi-lofi-music-lofi-chill-560327.mp3" type="audio/mpeg">
+
+</audio>
+<h3>Mp4 video</h3>
+<video controls>
+    <source src="vedio/33871-398473585.mp4"type="video/mp4">
+</video>
+<h3>List of registered(example)</h3>
+    <table border="1">
+<tr>    
+   <th>Name</th> 
+   <th>Email</th> 
+   <th>Level</th>
+</tr>
+ <tr>
+    <td> Amina</td>
+    <td>amina@mail.com</td>
+    <td>Bachelor</td>
+ </tr>
+<tr>
+    <td>Yasine</td>
+<td> yasine@mail.com</td>
+<td>Master</td>
+</tr>
+    </table>
+</body>
+</html>
