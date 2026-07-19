@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Remarque : Le devoir est en français, il est préférable d'utiliser lang="fr". -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Registration form</h1>
-    <form>
+    <form> 
         <div>
 <label>Nom :</label>
 <input type="text" placeholder="your name" required>
@@ -17,37 +17,49 @@
 <label>Mail :</label>
 <input type="email" placeholder="example@mail.com" required><br>
 </div>
+
 <div><br>
 <label>Password :</label>
 <input type="password" placeholder="xxxxxxxx" required><br>
 </div>
+
 <div><br>
 <label>Age :</label>
 <input type="number" placeholder="your age" required><br>
 </div>
+
 <div><br>
 <label>Date of birthday :</label>
 <input type="date" placeholder="" required><br>
+<!-- Remarque : Le placeholder n'est pas nécessaire pour un champ de type date. -->
 </div>
+
 <div><br>
 <label>Favorite color :</label>
 <input type="color"  placeholder="" required><br>
+<!-- Remarque : Le placeholder n'est pas utilisé avec un champ de type color. -->
 </div>
+
 <div><br>
 <label>Preferred volume :</label>
 <input type="range"  placeholder="" required><br>
+<!-- Remarque : Le placeholder n'est pas utilisé avec un champ de type range. -->
 </div>
- <div><br>
+
+<div><br>
 <label>Profile picture:</label>
 <input type="file"  placeholder="" required><br>
+<!-- Remarque : Le placeholder n'est pas utilisé avec un champ de type file. -->
 </div>
+
 <br>
 <label>Gender :</label><br>
 
 <input type="radio"  name="Gender" value="Female">
 <label for="Female">Female</label><br>
 <input type="radio"  name="Gender" value="Male">
-<label for="Male">Male</label><br> 
+<label for="Male">Male</label><br>
+
 
 <br><label> Interests:</label><br>
 <input type="checkbox" name="Interests" value="Music">
@@ -55,49 +67,62 @@
 <input type="checkbox" name="Interests" value="Sport">
 <label for="Interests">Sport</label><br>
 
- <label>Education level:</label><br>
- <select name="level">
- <option value="">Select your level </option>
+<label>Education level:</label><br>
+<select name="level">
+<option value="">Select your level </option>
 <option value="High School">High School</option>
 <option value="Bachelor's dgree ">Bachelor's dgree</option>
 <option value="Master">Master</option>
 <option value="Phd">Phd</option>
- </select>
+</select>
+
 <br><label>Why do you want to regiter?</label><br>
-<textarea  name="message" placeholder="write your message here ...." required></textarea>
+<textarea name="message" placeholder="write your message here ...." required></textarea>
+
+<!-- Remarque : Il manque les boutons "S'inscrire" (submit) et "Réinitialiser" (reset) demandés dans le devoir. -->
 
     </form>
+
     <h1>Image</h1>
     <figure>
         <img src="image/images.jpg" alt="profile picteur">
         <figcaption>Example profile picteur</figcaption>
     </figure>
-<h2>AUDiO></h2>
+
+<h2>AUDiO></h2> <!-- Remarque : Il y a une petite erreur de syntaxe dans ce titre (">" en trop). -->
 <audio controls>
     <source src="media/mirostar-lofi-lofi-music-lofi-chill-560327.mp3" type="audio/mpeg">
-
 </audio>
+
 <h3>Mp4 video</h3>
 <video controls>
-    <source src="vedio/33871-398473585.mp4"type="video/mp4">
+    <source src="vedio/33871-398473585.mp4" type="video/mp4">
 </video>
+
 <h3>List of registered(example)</h3>
-    <table border="1">
-<tr>    
-   <th>Name</th> 
-   <th>Email</th> 
+<table border="1">
+<tr>
+   <th>Name</th>
+   <th>Email</th>
    <th>Level</th>
 </tr>
- <tr>
-    <td> Amina</td>
+
+<tr>
+    <td>Amina</td>
     <td>amina@mail.com</td>
     <td>Bachelor</td>
- </tr>
+</tr>
+
 <tr>
     <td>Yasine</td>
-<td> yasine@mail.com</td>
-<td>Master</td>
+    <td>yasine@mail.com</td>
+    <td>Master</td>
 </tr>
-    </table>
+</table>
+
+
+<!-- Très bon travail !
+Vous avez réalisé un devoir complet et vous avez bien intégré la majorité des éléments demandés (formulaire, image, audio, vidéo et tableau). L'organisation des fichiers est également appréciée. Les quelques remarques ci-dessus vous permettront d'améliorer davantage votre travail et de respecter parfaitement les consignes. Continuez ainsi, vos efforts sont visibles. Bon courage pour la suite !  -->
+
 </body>
 </html>
